@@ -154,9 +154,9 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: url("../img/Binarybug.png"), #7b4397;
-  background: url("../img/Binarybug.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: url("../img/Binarybug.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/binaryBugIcon.svg"), #7867CF; /* pink blau #ABCDEF #dc2430  ---  voreinstellung  #7b4397  #dc2430*/
+  background: url("../img/binaryBugIcon.svg"), -webkit-linear-gradient(to left, #7867CF, #FC992F);
+  background: url("../img/binaryBugIcon.svg"), linear-gradient(to left, #7867CF, #FC992F);
 }
 
 header.masthead .header-content {
