@@ -23,7 +23,7 @@ hr {
   max-width: 100px;
   margin: 25px auto 0;
   border-width: 1px;
-  border-color: rgba(34, 34, 34, 0.1);
+  border-color: rgba(34, 34, 34, 1);
 }
 
 hr.light {
@@ -156,7 +156,7 @@ header.masthead {
   color: white;
   background: url("../img/binaryBugIcon.svg"), #7867CF; /* pink blau #ABCDEF #dc2430  ---  voreinstellung  #7b4397  #dc2430*/
   background: url("../img/binaryBugIcon.svg"), -webkit-linear-gradient(to left, #7867CF, #FC992F);
-  background: url("../img/binaryBugIcon.svg"), linear-gradient(to left, #7867CF, #FC992F);
+  background: url("../img/binaryBugIcon.svg"), linear-gradient(to left, #7867CF	, #FC992F);
 }
 
 header.masthead .header-content {
@@ -438,4 +438,20 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .red-background {
   background-color: #f44242;
+}
+
+.style-blog{ 
+	display: block;
+   position: relative;
+   padding: 0;
+   margin: 8px auto;
+   height: 0;
+   width: 100%;
+   max-height: 0;
+   font-size: 1px;
+   line-height: 0;
+   clear: both;
+   border: none;
+   border-top: 1px solid #aaaaaa;
+   border-bottom: 1px solid #ffffff;
 }
