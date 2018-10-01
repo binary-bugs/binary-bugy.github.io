@@ -9,14 +9,14 @@ body {
 }
 
 a {
-  color: #fdcc52;
+  color: #3337f7;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
 }
 
 a:hover, a:focus {
-  color: #fcbd20;
+  color: #3337f7;
 }
 
 hr {
@@ -91,7 +91,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav > li > a.active {
-  color: #fdcc52 !important;
+  color: #3337f7 !important;
   background-color: transparent;
 }
 
@@ -101,12 +101,12 @@ section h2 {
 
 #mainNav .navbar-nav > li > a,
 #mainNav .navbar-nav > li > a:focus {
-  color: #222222;
+  color: #3337f7;
 }
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #fdcc52;
+  color: #3337f7;
 }
 
 @media (min-width: 992px) {
@@ -140,11 +140,11 @@ section h2 {
   }
   #mainNav.navbar-shrink .navbar-nav > li > a,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus {
-    color: #222222;
+    color: #3337f7;
   }
   #mainNav.navbar-shrink .navbar-nav > li > a:hover,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-    color: #fdcc52;
+    color: #3337f7;
   }
 }
 
@@ -154,9 +154,9 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: url("../img/binaryBugIcon.svg"), #7867CF; /* pink blau #ABCDEF #dc2430  ---  voreinstellung  #7b4397  #dc2430*/
-  background: url("../img/binaryBugIcon.svg"), -webkit-linear-gradient(to left, #7867CF, #FC992F);
-  background: url("../img/binaryBugIcon.svg"), linear-gradient(to left, #7867CF	, #FC992F);
+  background: url("../img/binarybug.svg"), #7867CF; /* pink blau #ABCDEF #dc2430  ---  voreinstellung  #7b4397  #dc2430*/
+  background: url("../img/binarybug.svg"), -webkit-linear-gradient(to left, #7867CF, #FC992F);
+  background: url("../img/binarybug.svg"), linear-gradient(to left, #7867CF	, #FC992F);
 }
 
 header.masthead .header-content {
