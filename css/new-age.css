@@ -42,7 +42,7 @@ h6 {
 }
 
 p {
-  font-size: 30px;
+  font-size: 20px;
   line-height: 2.0;
   margin-bottom: 20px;
 }
@@ -245,6 +245,7 @@ section.download .badges .badge-link img {
 }
 
 section.features .section-heading {
+  font-size: 50px;
   margin-bottom: 100px;
 }
 
@@ -349,11 +350,11 @@ section.contact ul.list-social {
 }
 
 section.contact ul.list-social li a {
-  font-size: 40px;
-  line-height: 80px;
+  font-size: 50px;
+  line-height: 100px;
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   color: white;
   border-radius: 100%;
 }
