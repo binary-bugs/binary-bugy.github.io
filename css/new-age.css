@@ -6,7 +6,11 @@ body {
 
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  /* force workbreak*/
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
+
 /* Linkeigenschaften in Texten */
 a {
   color: #808080;  /* grey */
@@ -245,16 +249,17 @@ section.download .badges .badge-link img {
 }
 
 section.features .section-heading {
-  font-size: 50px;
   margin-bottom: 100px;
 }
 
 section.features .section-heading h2 {
   margin-top: 0;
+  
 }
 
 section.features .section-heading p {
   margin-bottom: 0;
+  
 }
 
 section.features .device-container,
@@ -350,11 +355,11 @@ section.contact ul.list-social {
 }
 
 section.contact ul.list-social li a {
-  font-size: 50px;
-  line-height: 100px;
+  font-size: 40px;
+  line-height: 80px;
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   color: white;
   border-radius: 100%;
 }
