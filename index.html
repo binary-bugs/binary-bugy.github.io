@@ -28,6 +28,17 @@
     <!-- tab icon -->
     <link rel="shortcut icon" href="./img/binarybug2.png" type="image/png" />
     <link rel="shortcut icon" sizes="196x196" href="./img/binarybug2.png">
+    
+     <script
+			  src="https://code.jquery.com/jquery-3.3.1.js"
+			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			  crossorigin="anonymous">
+    </script>
+    <script>
+            $(function(){
+                $("#footer").load("subpages/footer.html");
+            });
+        </script>
 
   </head>
 
@@ -81,6 +92,20 @@
         </div>
       </div>
     </nav>
+    
+    
+    <section class="red-background">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            
+            <h1>ACHTUNG: Am 28.10.  gibt es kein Treffen. Dafür fahren 
+            wir am 26.10. zu einem Cryptoabend nach Erfurt. Wenn du Lust hast mitzukommen, schreib uns eine Mail.
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <header class="masthead">
 		
@@ -104,6 +129,8 @@
         </div>
       </div>
     </header>
+    
+    
 
     <section class="download bg-primary1 text-center" id="ueberUns">
       <div class="container">
@@ -243,16 +270,7 @@
       </div>
     </section>
 
-    <footer>
-      <div class="container">
-        <p>&copy; binary bugs 2018. All Rights Reserved.</p>
-        <ul class="list-inline">
-          <li class="list-inline-item">
-            <a href="subpages/impressum.html">Impressum</a>
-          </li>
-        </ul>
-      </div>
-    </footer>
+    <div id="footer"></div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
