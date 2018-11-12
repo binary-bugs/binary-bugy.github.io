@@ -352,6 +352,7 @@ section.contact h2 i {
 
 section.contact ul.list-social {
   margin-bottom: 0;
+  font-size: 150px;
 }
 
 section.contact ul.list-social li a {
@@ -362,6 +363,7 @@ section.contact ul.list-social li a {
   height: 80px;
   color: white;
   border-radius: 100%;
+  font-size: 150px;
 }
 
 section.contact ul.list-social li.social-twitter a {
@@ -505,4 +507,13 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
    border: none;
    border-top: 1px solid #aaaaaa;
    border-bottom: 1px solid #ffffff;
+}
+
+section#kontakt ul.list-social {
+  margin-bottom: 0;
+}
+
+section#kontakt ul.list-social li a {
+  font-size: 40px;
+  line-height: 80px;
 }
