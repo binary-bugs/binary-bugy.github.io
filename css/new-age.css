@@ -509,11 +509,11 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
    border-bottom: 1px solid #ffffff;
 }
 
-section#kontakt ul.list-social {
+ul.list-social {
   margin-bottom: 0;
 }
 
-section#kontakt ul.list-social li a {
+ul.list-social li a {
   font-size: 40px;
   line-height: 80px;
 }
